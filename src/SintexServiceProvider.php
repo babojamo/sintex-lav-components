@@ -18,6 +18,7 @@ class SintexServiceProvider extends ServiceProvider
         Blade::component('sintex::components.layouts.sidebar', 'sintexlayoutside');
         Blade::component('sintex::components.layouts.top-nav', 'sintexlayouttop');
         Blade::component('sintex::components.email', 'sintexemail');
+        
     }
     public function register()
     {
