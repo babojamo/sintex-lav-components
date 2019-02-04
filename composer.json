@@ -13,9 +13,8 @@
         }
     },
     "require": {
-        "laravel/framework": ">=5.7.*"
+        "laravel/framework": "5.7.*@dev"
     },
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
