@@ -15,9 +15,9 @@ class SintexServiceProvider extends ServiceProvider
             __DIR__.'/views' => base_path('resources/views/sintex'),
         ]);
 
-        Blade::component('sintex::layouts.sidebar', 'sintexlayoutside');
-        Blade::component('sintex::layouts.top-nav', 'sintexlayouttop');
-        Blade::component('sintex::layouts.top-nav', 'sintexemail');
+        Blade::component('sintex::components.layouts.sidebar', 'sintexlayoutside');
+        Blade::component('sintex::components.layouts.top-nav', 'sintexlayouttop');
+        Blade::component('sintex::components.layouts.top-nav', 'sintexemail');
     }
     public function register()
     {
