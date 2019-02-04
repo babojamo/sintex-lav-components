@@ -15,11 +15,12 @@
     "require": {
         "laravel/framework": ">=5.7.*"
     },
-     "extra": {
-         "laravel": {
-             "providers": [
-                 "Sintex\\SintexServiceProvider"
-             ]
-         }
-     }
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sintex\\SintexServiceProvider"
+            ]
+        }
+    }
 }
