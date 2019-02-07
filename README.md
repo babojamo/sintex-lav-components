@@ -19,6 +19,7 @@ There are two different type of based layout
 
 ###### View based layouts Examples
 An example for Top Navigation layout
+
     @sintexlayouttop
 
         @slot('page_title')
