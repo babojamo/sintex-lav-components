@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/Ionicons/css/ionicons.min.css">
     {{ $start_script }}
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/black-style.css">
+    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/sintex-style.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/logo.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/fonts/google.css">
 </head>
 <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
 
-<body class="hold-transition skin-black layout-top-nav">
+<body class="hold-transition {{ $skin ?? 'skin-black' }} layout-top-nav">
     <div class="wrapper">
 
         <header class="main-header">

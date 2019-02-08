@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jvectormap/jquery-jvectormap.css">
     {{ $start_script }}
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/black-style.css">
+    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/sintex-style.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/fonts/google.css">
 </head>
 
-<body class="hold-transition skin-black sidebar-mini">
+<body class="hold-transition {{ $skin ?? 'skin-black' }} sidebar-mini">
     <div class="wrapper">
 
         <header class="main-header">
