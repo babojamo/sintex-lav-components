@@ -21,7 +21,7 @@
 <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
 
 <body class="hold-transition {{ $skin ?? 'skin-black' }} layout-top-nav">
-    <div class="wrapper">
+    <div class="wrapper" id="{{ $body_id ?? '' }}">
 
         <header class="main-header">
             <nav class="navbar navbar-static-top">

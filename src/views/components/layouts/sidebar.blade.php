@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/fonts/google.css">
 </head>
 
-<body class="hold-transition {{ $skin ?? 'skin-black' }} sidebar-mini" id="{{ $body_id ?? '' }}">
-    <div class="wrapper">
+<body class="hold-transition {{ $skin ?? 'skin-black' }} sidebar-mini">
+    <div class="wrapper" id="{{ $body_id ?? '' }}">
 
         <header class="main-header">
 
