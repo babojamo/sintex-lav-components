@@ -296,3 +296,15 @@ An example for Side Bar layout
         @endslot
 
     @endsintexlayoutside
+
+
+Email Template
+
+    @sintexemail
+    @slot('brand','Document Management System')
+    @slot('url','http://docms.sportscity.com.ph')
+    @slot('content')
+        <p>Hi {{ $receiver }},</p>
+        <p>The document that you have created (<i>{{ $document_number }} - {{ $title }}</i>) has been approved.<br>
+    @endslot
+    @endsintexemail
