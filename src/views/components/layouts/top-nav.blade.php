@@ -37,6 +37,7 @@
                 </div>
             </nav>
         </header>
+        @if(!empty($breadcrumbs))
         <div class="breadcrumb-container">
             <div class="container">
                 <ol class="breadcrumb">
@@ -44,6 +45,7 @@
                 </ol>
             </div>
         </div>
+        @endif
         <div class="content-wrapper">
             <div class="container">
                 <section class="content-header">

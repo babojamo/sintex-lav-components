@@ -44,6 +44,7 @@
             </section>
         </aside>
         <div class="content-wrapper">
+            @if(!empty($breadcrumbs))
             <div class="breadcrumb-container">
                 <ol class="breadcrumb">
 
@@ -51,6 +52,7 @@
 
                 </ol>
             </div>
+            @endif
             <section class="content-header">
                 <h1>{{ $header_title }}<small>{{ $header_title_sm }}</small></h1>
 
