@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <title>{{ $page_title }}</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -18,8 +17,6 @@
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/fonts/google.css">
     {{ $start_script }}
 </head>
-<!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-
 <body class="hold-transition {{ $skin ?? 'skin-black' }} layout-top-nav">
     <div class="wrapper" id="{{ $body_id ?? '' }}">
 
@@ -27,9 +24,9 @@
             <nav class="navbar navbar-static-top">
                 <div class="container">
                     <div class="navbar-header">
-
                         {!! $nav_brand !!}
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-collapse">
                             <i class="fa fa-bars"></i>
                         </button>
                     </div>
@@ -48,13 +45,18 @@
         @endif
         <div class="content-wrapper">
             <div class="container">
+                @if(isset($header_title))
                 <section class="content-header">
-                    <h1>{{ $header_title }}<small>{{ $header_title_sm }}</small></h1>
-
+                    <h1>{{ $header_title }}
+                        @if(isset($header_title_sm))
+                        <small>{{ $header_title_sm }}</small>
+                        @endif
+                    </h1>
+                    @if(isset($header_tools))
                     {{ $header_tools }}
-
-
+                    @endif
                 </section>
+                @endif
                 <section class="content">
                     {{ $content }}
                 </section>
@@ -67,8 +69,11 @@
         </footer>
     </div>
     <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/js/bootstrap.min.js">
+    </script>
+    <script
+        src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jquery-slimscroll/jquery.slimscroll.min.js">
+    </script>
     <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/fastclick/lib/fastclick.js"></script>
     <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/js/adminlte.min.js"></script>
     <script>
@@ -81,5 +86,4 @@
     </script>
     {{ $end_script }}
 </body>
-
 </html>
