@@ -34,7 +34,7 @@
                 </div>
             </nav>
         </header>
-        @if(!empty($breadcrumbs))
+        @if(isset($breadcrumbs))
         <div class="breadcrumb-container">
             <div class="container">
                 <ol class="breadcrumb">
