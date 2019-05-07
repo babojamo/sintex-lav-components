@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/Ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jvectormap/jquery-jvectormap.css">
-    {{ $start_script }}
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/skins/_all-skins.min.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/sintex-style.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/fonts/google.css">
+    {{ $start_script }}
 </head>
 
 <body class="hold-transition {{ $skin ?? 'skin-black' }} sidebar-mini">
