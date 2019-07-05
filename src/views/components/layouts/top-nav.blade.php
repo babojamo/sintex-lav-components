@@ -30,7 +30,9 @@
                             <i class="fa fa-bars"></i>
                         </button>
                     </div>
+                    @if(isset($navigation))
                     {{ $navigation }}
+                    @endif
                 </div>
             </nav>
         </header>

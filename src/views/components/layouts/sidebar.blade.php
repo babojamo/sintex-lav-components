@@ -32,7 +32,9 @@
                 </a>
                 <div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
-                        {{ $navigation }}
+                    @if(isset($navigation))
+                    {{ $navigation }}
+                    @endif
                     </ul>
                 </div>
 
