@@ -1,5 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!DOCTYPE HTML
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
     <!--[if gte mso 9]><xml>
@@ -20,6 +22,8 @@
         body {
             margin: 0;
             padding: 0;
+            font-size: 11pt;
+            font-family: "Calibri", "sans-serif";
         }
 
         table,
@@ -265,7 +269,6 @@
                 font-size: 0px;
             }
         }
-
     </style>
 </head>
 
@@ -332,11 +335,11 @@
                 font-size: 0px !important;
             }
         }
-
     </style>
     <!--[if IE]><div class="ie-browser"><![endif]-->
     <!--[if mso]><div class="mso-container"><![endif]-->
-    <table class="nl-container" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #FFFFFF;width: 100%"
+    <table class="nl-container"
+        style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #FFFFFF;width: 100%"
         cellpadding="0" cellspacing="0">
         <tbody>
             <tr style="vertical-align: top">
@@ -346,65 +349,91 @@
                     <div style="background-color:transparent;">
                         <div style="Margin: 0 auto;min-width: 320px;max-width: 900px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;"
                             class="block-grid ">
-                            <div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;">
+                            <div
+                                style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;">
                                 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="background-color:transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width: 900px;"><tr class="layout-full-width" style="background-color:transparent;"><![endif]-->
 
                                 <!--[if (mso)|(IE)]><td align="center" width="900" style=" width:900px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><![endif]-->
-                                <div class="col num12" style="min-width: 320px;max-width: 900px;display: table-cell;vertical-align: top;">
+                                <div class="col num12"
+                                    style="min-width: 320px;max-width: 900px;display: table-cell;vertical-align: top;">
                                     <div style="background-color: transparent; width: 100% !important;">
                                         <!--[if (!mso)&(!IE)]><!-->
-                                        <div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+                                        <div
+                                            style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
                                             <!--<![endif]-->
 
 
                                             <div class="">
                                                 <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
-                                                <div style="color:#555555;line-height:120%;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
-                                                    <div style="font-size:12px;line-height:14px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;text-align:left;">
-                                                        <p style="margin: 0;font-size: 12px;line-height: 14px">
-                                                            <span style="font-size: 12px; line-height: 14px;">
+                                                <div
+                                                    style="color:#555555;line-height:120%; padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                                    <div
+                                                        style="line-height:14px;color:#555555;text-align:left;">
+                                                        <p style="margin: 0;line-height: 14px">
+                                                            <span style=" line-height: 14px;">
                                                                 {!! $content !!}
                                                             </span>
                                                         </p>
                                                     </div>
 
-                                                    <div style="line-height: 14px;margin-top: 0;margin-bottom: 0;font-size: 12px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif">
+                                                    <div
+                                                        style="line-height: 14px;margin-top: 0;margin-bottom: 0;color:#555555;">
                                                     </div>
-                                                    <div style="font-size:12px;line-height:14px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;text-align:left;">
-                                                        <p style="margin: 0;font-size: 12px;line-height: 14px">&#160;</p>
+                                                    <div
+                                                        style="line-height:14px;color:#555555;text-align:left;">
+                                                        <p style="margin: 0;line-height: 14px">&#160;
+                                                        </p>
                                                     </div>
-                                                    <div style="line-height: 14px;margin-top: 0;margin-bottom: 0;font-size: 12px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif">
+                                                    <div
+                                                        style="line-height: 14px;margin-top: 0;margin-bottom: 0;color:#555555;">
                                                     </div>
-                                                    <div style="font-size:12px;line-height:14px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;text-align:left;">
-                                                        <p style="margin: 0;font-size: 12px;line-height: 14px">&#160;</p>
+                                                    <div
+                                                        style="line-height:14px;color:#555555;text-align:left;">
+                                                        <p style="margin: 0;line-height: 14px">&#160;
+                                                        </p>
                                                     </div>
-                                                    <div style="line-height: 14px;margin-top: 0;margin-bottom: 0;font-size: 12px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif">
+                                                    <div
+                                                        style="line-height: 14px;margin-top: 0;margin-bottom: 0;color:#555555;">
                                                     </div>
-                                                    <div style="font-size:12px;line-height:14px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;text-align:left;">
-                                                        <p style="margin: 0;font-size: 12px;line-height: 14px">&#160;</p>
+                                                    <div
+                                                        style="line-height:14px;color:#555555;text-align:left;">
+                                                        <p style="margin: 0;line-height: 14px">&#160;
+                                                        </p>
                                                     </div>
-                                                    <div style="line-height: 14px;margin-top: 0;margin-bottom: 0;font-size: 12px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif">
+                                                    <div
+                                                        style="line-height: 14px;margin-top: 0;margin-bottom: 0;color:#555555;">
                                                     </div>
-                                                    <div style="font-size:12px;line-height:14px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;text-align:left;">
-                                                        <p style="margin: 0;font-size: 12px;line-height: 14px">&#160;</p>
+                                                    <div
+                                                        style="line-height:14px;color:#555555;text-align:left;">
+                                                        <p style="margin: 0;line-height: 14px">&#160;
+                                                        </p>
                                                     </div>
-                                                    <div style="line-height: 14px;margin-top: 0;margin-bottom: 0;font-size: 12px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif">
+                                                    <div
+                                                        style="line-height: 14px;margin-top: 0;margin-bottom: 0;color:#555555;">
                                                     </div>
-                                                    <div style="font-size:12px;line-height:14px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;text-align:left;">
-                                                        <p style="margin: 0;font-size: 12px;line-height: 14px"><strong>{{ $brand }}</strong></p>
+                                                    <div
+                                                        style="line-height:14px;color:#555555;text-align:left;">
+                                                        <p style="margin: 0;line-height: 14px">
+                                                            <strong>{{ $brand }}</strong></p>
                                                     </div>
-                                                    <div style="line-height: 14px;margin-top: 0;margin-bottom: 0;font-size: 12px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif">
+                                                    <div
+                                                        style="line-height: 14px;margin-top: 0;margin-bottom: 0;color:#555555;">
                                                     </div>
-                                                    <div style="font-size:12px;line-height:14px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;text-align:left;">
-                                                        <p style="margin: 0;font-size: 12px;line-height: 14px">Auto
+                                                    <div
+                                                        style="line-height:14px;color:#555555;text-align:left;">
+                                                        <p style="margin: 0;line-height: 14px">Auto
                                                             generated email. Please Do Not Reply</p>
                                                     </div>
-                                                    <div style="line-height: 14px;margin-top: 0;margin-bottom: 0;font-size: 12px;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif">
+                                                    <div
+                                                        style="line-height: 14px;margin-top: 0;margin-bottom: 0;color:#555555;">
                                                     </div>
-                                                    <div style="font-size:12px;line-height:14px;text-align:center;color:#555555;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;">
-                                                        <p style="margin: 0;font-size: 12px;line-height: 14px;text-align: center"><a
-                                                                style="color:#0068A5;text-decoration: underline;" href="{{ $url }}"
-                                                                target="_blank" rel="noopener">{{ $url }}</a></p>
+                                                    <div
+                                                        style="line-height:14px;text-align:center;color:#555555;">
+                                                        <p
+                                                            style="margin: 0;line-height: 14px;text-align: center">
+                                                            <a style="color:#0068A5;text-decoration: underline;"
+                                                                href="{{ $url }}" target="_blank"
+                                                                rel="noopener">{{ $url }}</a></p>
                                                     </div>
                                                 </div>
                                                 <!--[if mso]></td></tr></table><![endif]-->
