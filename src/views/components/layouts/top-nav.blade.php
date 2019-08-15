@@ -23,11 +23,14 @@
 <body class="hold-transition {{ $skin ?? 'skin-black' }} layout-top-nav">
     <div class="wrapper" id="{{ $body_id ?? '' }}">
 
+        @if(isset($navigation) || isset($nav_brand))
         <header class="main-header">
             <nav class="navbar navbar-static-top">
                 <div class="container">
                     <div class="navbar-header">
+                        @if(isset($navigation))
                         {!! $nav_brand !!}
+                        @endif
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#navbar-collapse">
                             <i class="fa fa-bars"></i>
@@ -39,6 +42,7 @@
                 </div>
             </nav>
         </header>
+        @endif
         @if(isset($breadcrumbs))
         <div class="breadcrumb-container">
             <div class="container">
@@ -67,11 +71,13 @@
                 </section>
             </div>
         </div>
-        <footer class="main-footer">
-            <div class="container">
-                {{$footer}}
-            </div>
-        </footer>
+         @if(isset($footer))
+            <footer class="main-footer">
+                <div class="container">
+                    {{$footer}}
+                </div>
+            </footer>
+        @endif
     </div>
     <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/js/bootstrap.min.js">
