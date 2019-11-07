@@ -2,7 +2,7 @@
 Laravel components and helpers for sintex websites
 
 ## Installation
-    composer require babojamo/sintex-lav-components
+    composer require sintexph/laravel-lib
 
 ## Getting started
 - [AdminLTE](https://adminlte.io/)
