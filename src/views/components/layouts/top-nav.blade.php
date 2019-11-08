@@ -8,8 +8,9 @@
     <title>{{ $page_title }}</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-    {{ $start_script }}
-
+    @if(isset($start_script))
+        {{ $start_script }}
+    @endif
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/Ionicons/css/ionicons.min.css">
@@ -95,6 +96,8 @@
         });
 
     </script>
-    {{ $end_script }}
+    @if(isset($end_script))
+        {{ $end_script }}
+    @endif
 </body>
 </html>
