@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="http://cdn.sportscity.com.ph/fonts/google.css">
     
 </head>
-<body class="hold-transition {{ $skin ?? 'skin-black' }} layout-top-nav">
+<body class="hold-transition {{ $skin ?? 'skin-black' }} layout-top-nav {{ $body_options ?? '' }}">
     <div class="wrapper" id="{{ $body_id ?? '' }}">
 
         @if(isset($navigation) || isset($nav_brand))
