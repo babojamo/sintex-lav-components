@@ -23,7 +23,7 @@
     
 </head>
 
-<body class="hold-transition {{ $skin ?? 'skin-black' }} sidebar-mini {{ $body_options ?? '' }}">
+<body class="hold-transition fixed {{ $skin ?? 'skin-black' }} sidebar-mini {{ $body_options ?? '' }}">
     <div class="wrapper" id="{{ $body_id ?? '' }}">
 
         <header class="main-header">
