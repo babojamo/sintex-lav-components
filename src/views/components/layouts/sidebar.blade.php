@@ -28,9 +28,11 @@
 
         <header class="main-header">
 
+            @if(isset($nav_brand))
             <a href="/" class="logo">
                 {!! $nav_brand !!}
             </a>
+            @endif
             <nav class="navbar navbar-static-top">
                 <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
                     <span class="sr-only">Toggle navigation</span>

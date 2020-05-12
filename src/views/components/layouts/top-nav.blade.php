@@ -29,7 +29,7 @@
             <nav class="navbar navbar-static-top">
                 <div class="container">
                     <div class="navbar-header">
-                        @if(isset($navigation))
+                        @if(isset($nav_brand))
                         {!! $nav_brand !!}
                         @endif
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
