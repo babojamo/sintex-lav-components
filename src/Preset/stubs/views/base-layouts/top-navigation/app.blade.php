@@ -105,7 +105,7 @@ DOCMS - @yield('title','Document Management System')
 
 
 @slot('start_script')
-<link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/logo.css">
+<link rel="stylesheet" href="https://cdn.sportscity.com.ph/css/logo.css">
 <link rel="stylesheet" href="{{ asset('css/document.css') }}">
 
 @yield('top_script')

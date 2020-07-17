@@ -83,7 +83,7 @@ An example for Top Navigation layout
                 <b>Version</b> 1.0.0
             </div>
             <strong>Copyright © 2018
-                <a href="/"><img class="sci" src="http://cdn.sportscity.com.ph/images/sci_logo.png"> Sportscity
+                <a href="/"><img class="sci" src="https://cdn.sportscity.com.ph/images/sci_logo.png"> Sportscity
                     International</a>.</strong> All rights reserved.
         @endslot
 
@@ -275,8 +275,8 @@ An example for Side Bar layout
         @endslot
 
         @slot('start_script')
-            <link rel="stylesheet" href="http://cdn.sportscity.com.ph/loading-modal/css/jquery.loadingModal.min.css">
-            <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/logo.css">
+            <link rel="stylesheet" href="https://cdn.sportscity.com.ph/loading-modal/css/jquery.loadingModal.min.css">
+            <link rel="stylesheet" href="https://cdn.sportscity.com.ph/css/logo.css">
             <link rel="stylesheet" href="{{ asset('css/document.css') }}">
             @yield('top_script')
         @endslot
@@ -286,7 +286,7 @@ An example for Side Bar layout
         @endslot
 
         @slot('end_script')
-            <script src="http://cdn.sportscity.com.ph/loading-modal/js/jquery.loadingModal.js"></script>
+            <script src="https://cdn.sportscity.com.ph/loading-modal/js/jquery.loadingModal.js"></script>
             @yield('bottom_script')
         @endslot
 

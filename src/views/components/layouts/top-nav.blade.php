@@ -11,14 +11,14 @@
     @if(isset($start_script))
         {{ $start_script }}
     @endif
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/Ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/skins/_all-skins.min.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/sintex-style.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/css/logo.css">
-    <link rel="stylesheet" href="http://cdn.sportscity.com.ph/fonts/google.css">
+    <link rel="stylesheet" href="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="https://cdn.sportscity.com.ph/css/sintex-style.css">
+    <link rel="stylesheet" href="https://cdn.sportscity.com.ph/css/logo.css">
+    <link rel="stylesheet" href="https://cdn.sportscity.com.ph/fonts/google.css">
     
 </head>
 <body class="hold-transition fixed {{ $skin ?? 'skin-black' }} layout-top-nav {{ $body_options ?? '' }}">
@@ -80,14 +80,14 @@
             </footer>
         @endif
     </div>
-    <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/js/bootstrap.min.js">
+    <script src="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/bootstrap/dist/js/bootstrap.min.js">
     </script>
     <script
-        src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jquery-slimscroll/jquery.slimscroll.min.js">
+        src="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/jquery-slimscroll/jquery.slimscroll.min.js">
     </script>
-    <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/fastclick/lib/fastclick.js"></script>
-    <script src="http://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/js/adminlte.min.js"></script>
+    <script src="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="https://cdn.sportscity.com.ph/AdminLTE-2.4.5/dist/js/adminlte.min.js"></script>
     <script>
         $.ajaxSetup({
             headers: {
